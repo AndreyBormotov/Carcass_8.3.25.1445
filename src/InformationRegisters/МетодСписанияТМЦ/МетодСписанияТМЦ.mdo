@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b20bc0-5925-48b0-89ff-75de5bd2a7ab">
+  <producedTypes>
+    <selectionType typeId="fb04b2ae-4c5b-4075-b496-867c940406aa" valueTypeId="bf9652ce-bff8-4e75-9839-65580430c151"/>
+    <listType typeId="0f0bd13c-e975-4827-b7ee-9930047e27c8" valueTypeId="bb011185-4ce0-472b-a829-e4165f1c198e"/>
+    <managerType typeId="08fd2a66-c315-4068-9f7a-9102f00c0444" valueTypeId="3811922d-d153-4333-ab2a-f2c61c0b3e8a"/>
+    <recordSetType typeId="0c59ec29-8ae3-49da-b2ce-b48fc219b8fd" valueTypeId="632248f7-07cb-40fb-a1ed-b7373332a980"/>
+    <recordKeyType typeId="84b9b236-35fd-49c8-baa6-5b2cfccd6975" valueTypeId="b29a7026-573f-4819-967a-335365c44da2"/>
+    <recordType typeId="7856c380-84c6-47f8-8470-66cfbcb1aaab" valueTypeId="e4414e49-44c0-4093-a65b-d06e51fd3466"/>
+    <recordManagerType typeId="210cdcf7-14f2-43fd-96dd-e69fa7612f8a" valueTypeId="a0e6c674-9998-417d-8590-03204a7339b4"/>
+  </producedTypes>
+  <name>МетодСписанияТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод списания ТМЦ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a34da91e-a8a8-4bfc-8e95-45ab6095a39d">
+    <name>МетодСписанияТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания ТМЦ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
