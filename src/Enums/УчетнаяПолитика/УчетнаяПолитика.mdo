@@ -43,4 +43,11 @@
       <value>FIFO</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="04f0af39-e554-4f58-b23b-a31d5acfff70">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
