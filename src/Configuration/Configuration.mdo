@@ -38,6 +38,7 @@
     <key>ru</key>
     <value>Каркасная конфигурация для сдачи экзамена &quot;1С:Специалист&quot; по платформе &quot;1С:Предприятие 8&quot;</value>
   </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="20b8317c-1c58-4baa-a76a-468fdcd409ff">
@@ -48,16 +49,22 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <commandGroups>CommandGroup.Основные</commandGroups>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
@@ -70,6 +77,7 @@
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
