@@ -8,7 +8,19 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>AccumulationRegister.Продажи.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Склады.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -21,6 +33,18 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>Document.РасходнаяНакладная.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.КорректировкаРегистров.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -48,30 +72,44 @@
     <placementFragments>
       <group>CommandGroup.Основные</group>
       <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРегистров.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Основные</group>
       <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.Продажи.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаРегистров.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.УчетнаяПолитика.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

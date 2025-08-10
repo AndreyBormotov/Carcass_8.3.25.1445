@@ -16,4 +16,8 @@
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>Catalog.Склады</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Document.КорректировкаРегистров</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>Report.ПродажиТоваров</content>
 </mdclass:Subsystem>

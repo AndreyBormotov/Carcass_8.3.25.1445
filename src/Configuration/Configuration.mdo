@@ -56,6 +56,7 @@
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <commonModules>CommonModule.УчетнаяПолитика</commonModules>
   <commandGroups>CommandGroup.Основные</commandGroups>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
@@ -68,14 +69,18 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.КорректировкаРегистров</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <reports>Report.ПродажиТоваров</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
