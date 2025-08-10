@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cefbc670-8109-4161-8406-29900bfa6c9e">
+  <producedTypes>
+    <objectType typeId="2e35a555-b686-4fb3-ab0b-22ab44182ff4" valueTypeId="89098cb4-82e4-4ad3-b8e1-e0cb24bcdffa"/>
+    <refType typeId="a19c469f-554b-4806-8ff4-6289cf895c3e" valueTypeId="7911e46d-cd2d-4558-9e5c-bcbdaab0ffbb"/>
+    <selectionType typeId="f5efd68a-d4d0-43ea-816a-f6001f33cd9c" valueTypeId="909cc498-04c8-46fc-8211-c67d70cd0921"/>
+    <listType typeId="e658b167-8c2a-44b8-96e1-f07737f0ebf8" valueTypeId="dd0aec52-bc11-4fad-a64b-3972a175636a"/>
+    <managerType typeId="1068a050-dad7-4739-b353-ca112d1a9943" valueTypeId="1f94ba98-9968-44de-b47d-c0af04f8174b"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="083ec11f-d0f6-448e-8829-093feaab98ce">
+    <name>ПроцентКомитента</name>
+    <synonym>
+      <key>ru</key>
+      <value>% комитента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
