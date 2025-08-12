@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="704d6882-3675-4607-8656-56e4f01c5de3">
+  <producedTypes>
+    <objectType typeId="372492b8-a364-4d13-825b-e10429f69536" valueTypeId="3596ebe3-6a60-43a2-ace3-b403b0bd2f1a"/>
+    <refType typeId="1d7addbf-50bd-43cc-b086-dfd3f9c3aa68" valueTypeId="fb35eaa1-2ecb-408b-8546-63fa7c99f0cd"/>
+    <selectionType typeId="c7108c59-6a5f-4ae9-beb9-a0b12598a8e8" valueTypeId="613648dc-5467-40e8-a4f5-b29254bb8ff6"/>
+    <listType typeId="6443f107-4f74-41d2-b6b6-cb082261a334" valueTypeId="a944f2d4-a99a-4d1d-94ad-b7c4f1081466"/>
+    <managerType typeId="f6aa4953-a41c-4bc2-a146-8e7f0e98b884" valueTypeId="0ffac398-2f7f-4ff6-aec2-2acd815ea1a0"/>
+  </producedTypes>
+  <name>РасходДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходДенег.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОтчетыКомитенту</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5e244b88-3c7e-4049-8a99-cf8e8e814220">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3f643ff0-1592-43c5-9d55-0aaf40e61093">
+    <producedTypes>
+      <objectType typeId="c8e991c3-2bea-4cd8-b4eb-8c2d58deb32c" valueTypeId="9b7710c7-6973-4255-b0b2-435f2941d3ff"/>
+      <rowType typeId="172b8902-6472-43bc-9199-2d2d9d177784" valueTypeId="062f0887-43b3-438e-b66f-d5bf032cbb48"/>
+    </producedTypes>
+    <name>СписокНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список номенклатуры</value>
+    </synonym>
+    <attributes uuid="671711fc-3a0c-4fde-915e-456ead8cf99e">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69744737-3d83-45a3-867f-13cd536dec87">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Договоры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77c548b6-bbbc-4eb9-8606-9e0c95999b0d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fd372432-6be3-4470-942b-8ba6bef25891">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66553920-bd63-4782-87c7-85c47e2d6213">
+      <name>СуммаКомитента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма комитента</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

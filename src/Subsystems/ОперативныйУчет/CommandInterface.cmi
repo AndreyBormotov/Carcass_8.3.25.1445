@@ -38,6 +38,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.РасходДенег.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -68,6 +74,7 @@
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходДенег.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -88,6 +95,7 @@
       <group>CommandGroup.Документы</group>
       <commands>Document.ПриходнаяНакладная.StandardCommand.OpenList</commands>
       <commands>Document.РасходнаяНакладная.StandardCommand.OpenList</commands>
+      <commands>Document.РасходДенег.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

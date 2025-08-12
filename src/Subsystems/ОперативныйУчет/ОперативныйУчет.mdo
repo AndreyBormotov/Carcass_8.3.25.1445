@@ -19,4 +19,5 @@
   <content>Catalog.Договоры</content>
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.ОтчетыКомитенту</content>
+  <content>Document.РасходДенег</content>
 </mdclass:Subsystem>
