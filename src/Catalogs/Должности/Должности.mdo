@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a288aab-a915-49a5-a295-fec0d152e7e8">
+  <producedTypes>
+    <objectType typeId="b984f9aa-b9aa-423a-836d-9f440f0bb594" valueTypeId="fefb4326-6090-4c70-b779-18c636558074"/>
+    <refType typeId="7572c246-5eab-48da-b0d0-40daa19d363b" valueTypeId="075c5829-292d-41c1-b451-48c056c0cf90"/>
+    <selectionType typeId="133ca260-29e6-4f89-b2dd-011f1210f8a0" valueTypeId="7e03bad9-bd9c-4cc5-afb5-87bf6ce8339e"/>
+    <listType typeId="73c2d4a2-b44b-4302-a976-5f8b1db7a10c" valueTypeId="12b89d47-08fc-49d8-a5cd-50777efe15c6"/>
+    <managerType typeId="4d07b2ab-c785-4b3d-b230-f5de73a442c3" valueTypeId="0a5f728e-168b-4430-84f8-ad0341916c8e"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3912e103-cfe1-4f6c-a10e-adcd6eed3b85">
+      <name>ВедущийСпециалист</name>
+      <description>Ведущий специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="3f08c7b1-a482-483b-9b49-f14472b6cc90">
+      <name>ЗамНачальникаОтдела</name>
+      <description>Зам. начальника отдела</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="1d7fee6a-b3b9-450a-886c-49e7cc96773e">
+      <name>НачальникОтдела</name>
+      <description>Начальник отдела</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="02d16cf8-6aeb-477b-9d2e-f60098920f88">
+      <name>РуководительПроекта</name>
+      <description>Руководитель проекта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="a02ad91f-b511-4284-9b0b-b0f69d62fe0c">
+      <name>Специалист</name>
+      <description>Специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

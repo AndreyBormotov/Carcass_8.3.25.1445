@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2512a71-4c4a-42ef-addf-ce1bfcc61aec">
+  <producedTypes>
+    <objectType typeId="e4437f3e-a5f4-46aa-9775-b8070140df03" valueTypeId="e73eea9b-42f7-44a9-8875-ee1fd6da1436"/>
+    <refType typeId="2df352c7-53db-4b0c-b6b8-e8c59ba91284" valueTypeId="3ad08f0d-d078-42c1-92e5-e68b3ffc9a47"/>
+    <selectionType typeId="29a3e440-e7d4-40b8-8b05-1bd27f976d1e" valueTypeId="7f699407-8c61-4ecf-9250-015b28df930a"/>
+    <listType typeId="e4b76f89-80e5-4f73-8826-1ea611f01dcd" valueTypeId="c7325815-d5d3-4022-b3b1-5d24115899f5"/>
+    <managerType typeId="114fd042-a3bf-4101-8562-ed776da52057" valueTypeId="ce1ddc73-64e0-4306-9697-4a12e528027d"/>
+    <routePointRef typeId="a72e3c54-eb1f-41fc-9bb9-c5cb3a7038de" valueTypeId="0769115e-4c73-4999-a5e1-23faa198b14a"/>
+  </producedTypes>
+  <name>РазработкаПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработка проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.РазработкаПроекта.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.РазработкаПроекта.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаПользователя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="f4cf8d18-e311-43f1-b5cc-c7c471626ea6">
+    <name>СложныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложный проект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ad172eaa-abc5-4449-815e-24960361b9f3">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>
