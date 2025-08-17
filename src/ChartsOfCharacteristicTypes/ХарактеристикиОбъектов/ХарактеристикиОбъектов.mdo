@@ -8,14 +8,14 @@
     <managerType typeId="8bbc1da9-8876-4149-a292-0c1ae51fe01e" valueTypeId="eda10a74-5845-49e1-9cc2-e3bb196abcb8"/>
     <containerType typeId="459aa526-26cf-4251-9063-993b0be7d242" valueTypeId="7c1635bc-ff14-4828-8f2f-cd998b05d79f"/>
   </producedTypes>
-  <name>СвойстваОбъектов</name>
+  <name>ХарактеристикиОбъектов</name>
   <synonym>
     <key>ru</key>
-    <value>Свойства объектов</value>
+    <value>Характеристики объектов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
-  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ХарактеристикиОбъектов.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -94,11 +94,29 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ДополнительныеХарактеристики</characteristicExtValues>
   <type>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ДополнительныеХарактеристики</types>
+    <types>CatalogRef.ФизическиеЛица</types>
     <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Соглашения</types>
+    <types>CatalogRef.Подразделения</types>
+    <numberQualifiers>
+      <precision>12</precision>
+      <scale>2</scale>
+    </numberQualifiers>
     <stringQualifiers>
-      <length>10</length>
+      <length>150</length>
     </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
