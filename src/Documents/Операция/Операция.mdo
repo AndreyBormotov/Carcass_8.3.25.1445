@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39d4942c-4090-4585-9913-1043e99eeb69">
+  <producedTypes>
+    <objectType typeId="334c7efc-ffd5-45fd-8634-58d453ff2966" valueTypeId="c6ade181-08fe-42b8-bc16-12739b840b68"/>
+    <refType typeId="c48d7154-6062-4400-8124-dfe81d613f79" valueTypeId="861a5e14-5582-426e-971b-6b12317ce76d"/>
+    <selectionType typeId="c8a05b18-aaa2-4c31-b30f-1a0a556dbf03" valueTypeId="9cf39820-54e3-415b-a39c-9fb21a6b70e7"/>
+    <listType typeId="b7ac5b0e-5fba-44e6-a183-65524ce7e211" valueTypeId="fc95ccef-f5fd-4deb-8d19-cb01984cafb4"/>
+    <managerType typeId="8e199beb-3727-47cb-914f-7e18652d770e" valueTypeId="bb5f0533-2aa4-402c-b63e-d94ba1126dcd"/>
+  </producedTypes>
+  <name>Операция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Операция.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Операция.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="abe44588-c161-493a-97a7-1254942da996">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

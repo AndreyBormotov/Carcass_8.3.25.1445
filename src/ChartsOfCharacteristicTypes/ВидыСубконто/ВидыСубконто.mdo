@@ -95,6 +95,10 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>CatalogRef.Номенклатура</types>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -110,6 +114,17 @@
       <code>000000001</code>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="75bd9f4f-636f-4009-8385-c72a8f5b1bad">
+      <name>СрокГодности</name>
+      <description>Срок годности</description>
+      <code>000000002</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
       </type>
     </items>
   </predefined>
