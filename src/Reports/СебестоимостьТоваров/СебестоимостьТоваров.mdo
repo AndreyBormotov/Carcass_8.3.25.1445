@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fee3958-1f34-46d4-9070-61338d45be1f">
+  <producedTypes>
+    <objectType typeId="b2739082-a779-4e43-b243-ceb35783a5b8" valueTypeId="b0795cda-e985-4da1-ae84-bdf20aa0b81f"/>
+    <managerType typeId="0f2f13f8-639f-4e6a-9c80-c82af7d1df1b" valueTypeId="18cdfb92-19e7-4453-be3f-a2bce19e44b8"/>
+  </producedTypes>
+  <name>СебестоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Себестоимость товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СебестоимостьТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6127da0f-392a-4710-b09e-877c46bff158">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

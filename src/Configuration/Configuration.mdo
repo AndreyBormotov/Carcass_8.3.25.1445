@@ -68,10 +68,11 @@
   <documents>Document.Операция</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.СебестоимостьТоваров</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
-  <dataProcessors>DataProcessor.КонсольЗапросовУФ</dataProcessors>
   <dataProcessors>DataProcessor.КонсольКода</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов9000</dataProcessors>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
