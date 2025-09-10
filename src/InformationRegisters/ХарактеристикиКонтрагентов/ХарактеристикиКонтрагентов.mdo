@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b27ed10-d58a-47e8-b03d-e45d022f4606">
+  <producedTypes>
+    <selectionType typeId="98dffb2c-a3af-4363-94e9-a925fe13769d" valueTypeId="e58ffc71-2a9d-40b6-a8b7-8634d1745c06"/>
+    <listType typeId="61baa7f6-5bc3-4a83-a55a-b8a2245ce357" valueTypeId="8ecdf85c-bb26-4b6a-9964-7806e5216c47"/>
+    <managerType typeId="234950e6-abbf-40e7-8fc5-eb07d8fa394c" valueTypeId="5fbd4be9-073f-4afc-b5e0-55178d4633b7"/>
+    <recordSetType typeId="944e520d-0932-4f2a-bac9-5c946a894d2e" valueTypeId="036d8154-c5ba-42c9-b978-770c5b4a8b4d"/>
+    <recordKeyType typeId="af5f786a-98cd-4b49-ab7d-8142e0b273fb" valueTypeId="5effd852-7b47-460d-badf-74766cef5c75"/>
+    <recordType typeId="205ed9a6-f9d0-44fa-abe7-72aa549c0e3c" valueTypeId="2ae07f92-4fd6-4703-a783-2ca89dda9cf6"/>
+    <recordManagerType typeId="a6666159-8d99-4420-a73f-99c4510f58ab" valueTypeId="1480ff5a-3af7-4022-b9f5-8640b04f17a4"/>
+  </producedTypes>
+  <name>ХарактеристикиКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="df898cef-a7aa-4316-8c15-ad903925b445">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ХарактеристикиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="31f55d93-a03e-4e65-9ee3-5d75d9893de0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b416bf29-040e-4849-90bb-551ed818b617">
+    <name>Свойство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойство</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ХарактеристикиОбъектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

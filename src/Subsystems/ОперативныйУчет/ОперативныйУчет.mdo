@@ -22,4 +22,5 @@
   <content>AccumulationRegister.Взаиморасчеты</content>
   <content>ChartOfCharacteristicTypes.ХарактеристикиОбъектов</content>
   <content>Catalog.ДополнительныеХарактеристики</content>
+  <content>InformationRegister.ХарактеристикиКонтрагентов</content>
 </mdclass:Subsystem>
