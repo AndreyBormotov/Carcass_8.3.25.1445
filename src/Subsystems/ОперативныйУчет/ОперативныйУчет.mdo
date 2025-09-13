@@ -23,4 +23,5 @@
   <content>ChartOfCharacteristicTypes.СвойстваКонтрагентов</content>
   <content>Catalog.ДополнительныеСвойстваКонтрагентов</content>
   <content>InformationRegister.ХарактеристикиКонтрагентов</content>
+  <content>Report.Взаиморасчеты</content>
 </mdclass:Subsystem>

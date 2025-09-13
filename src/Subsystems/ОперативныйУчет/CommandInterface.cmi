@@ -11,9 +11,7 @@
     </visibilityFragments>
     <visibilityFragments>
       <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
+      <visible/>
     </visibilityFragments>
     <visibilityFragments>
       <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
@@ -125,6 +123,9 @@
       <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
       <commands>Document.РасходДенег.StandardCommand.Create</commands>
       <commands>Catalog.Соглашения.StandardCommand.Create</commands>
+      <commands>Catalog.ДополнительныеСвойстваКонтрагентов.StandardCommand.Create</commands>
+      <commands>ChartOfCharacteristicTypes.СвойстваКонтрагентов.StandardCommand.Create</commands>
+      <commands>InformationRegister.ХарактеристикиКонтрагентов.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

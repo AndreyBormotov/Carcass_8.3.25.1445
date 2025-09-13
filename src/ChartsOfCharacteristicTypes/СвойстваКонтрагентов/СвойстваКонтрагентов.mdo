@@ -125,6 +125,16 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2149d23c-d6f5-49bf-98ae-f6e21a38b197">
+      <name>Регион</name>
+      <description>Регион</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.ДополнительныеСвойстваКонтрагентов</types>
+      </type>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:ChartOfCharacteristicTypes>
