@@ -20,7 +20,7 @@
   <content>Document.РасходДенег</content>
   <content>Catalog.Соглашения</content>
   <content>AccumulationRegister.Взаиморасчеты</content>
-  <content>ChartOfCharacteristicTypes.ХарактеристикиОбъектов</content>
-  <content>Catalog.ДополнительныеХарактеристики</content>
+  <content>ChartOfCharacteristicTypes.СвойстваКонтрагентов</content>
+  <content>Catalog.ДополнительныеСвойстваКонтрагентов</content>
   <content>InformationRegister.ХарактеристикиКонтрагентов</content>
 </mdclass:Subsystem>

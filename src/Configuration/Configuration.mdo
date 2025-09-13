@@ -65,7 +65,7 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Соглашения</catalogs>
-  <catalogs>Catalog.ДополнительныеХарактеристики</catalogs>
+  <catalogs>Catalog.ДополнительныеСвойстваКонтрагентов</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
@@ -81,7 +81,7 @@
   <informationRegisters>InformationRegister.ХарактеристикиКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ХарактеристикиОбъектов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваКонтрагентов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>

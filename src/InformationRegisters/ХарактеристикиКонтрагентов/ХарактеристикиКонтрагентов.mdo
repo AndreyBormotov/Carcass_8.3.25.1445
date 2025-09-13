@@ -24,10 +24,17 @@
       <value>Значение</value>
     </synonym>
     <type>
-      <types>Characteristic.ХарактеристикиОбъектов</types>
+      <types>Characteristic.СвойстваКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ХарактеристикиКонтрагентов.Dimension.Свойство</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ХарактеристикиКонтрагентов.Dimension.Свойство</field>
+    </linkByType>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -45,7 +52,9 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="b416bf29-040e-4849-90bb-551ed818b617">
@@ -55,7 +64,7 @@
       <value>Свойство</value>
     </synonym>
     <type>
-      <types>Characteristic.ХарактеристикиОбъектов</types>
+      <types>ChartOfCharacteristicTypesRef.СвойстваКонтрагентов</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
