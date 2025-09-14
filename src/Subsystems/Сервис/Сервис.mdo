@@ -10,5 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Сервис</picture>
   </picture>
-  <content>DataProcessor.КонсольЗапросов</content>
+  <content>DataProcessor.КонсольЗапросов9000</content>
 </mdclass:Subsystem>

@@ -8,10 +8,10 @@
     <recordKeyType typeId="8736aeb4-448d-4fe2-854d-3aceb3c84424" valueTypeId="8e337cba-b262-424d-b75f-b4f01ae25568"/>
     <recordType typeId="186fdf63-8ab2-448b-932c-778cd88b07e2" valueTypeId="7b95f31c-0ee9-40b7-b1b4-cc09c6557b05"/>
   </producedTypes>
-  <name>Взаиморасчеты</name>
+  <name>СостояниеВзаиморасчетов</name>
   <synonym>
     <key>ru</key>
-    <value>Взаиморасчеты</value>
+    <value>Состояние взаиморасчетов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -10,7 +10,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</command>
+      <command>AccumulationRegister.СостояниеВзаиморасчетов.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -75,7 +75,7 @@
       <group>CommandGroup.Основные</group>
       <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
       <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СостояниеВзаиморасчетов.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Справочники</group>
@@ -96,7 +96,7 @@
       <group>CommandGroup.Основные</group>
       <commands>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList</commands>
       <commands>InformationRegister.КурсыВалют.StandardCommand.OpenList</commands>
-      <commands>AccumulationRegister.Взаиморасчеты.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.СостояниеВзаиморасчетов.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
@@ -123,9 +123,6 @@
       <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
       <commands>Document.РасходДенег.StandardCommand.Create</commands>
       <commands>Catalog.Соглашения.StandardCommand.Create</commands>
-      <commands>Catalog.ДополнительныеСвойстваКонтрагентов.StandardCommand.Create</commands>
-      <commands>ChartOfCharacteristicTypes.СвойстваКонтрагентов.StandardCommand.Create</commands>
-      <commands>InformationRegister.ХарактеристикиКонтрагентов.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

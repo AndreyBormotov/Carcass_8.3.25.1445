@@ -72,16 +72,17 @@
   <documents>Document.РасходДенег</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
-  <reports>Report.Взаиморасчеты</reports>
+  <reports>Report.СостояниеВзаиморасчетов</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов9000</dataProcessors>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
   <informationRegisters>InformationRegister.ХарактеристикиКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СостояниеВзаиморасчетов</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваКонтрагентов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
   <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>

@@ -19,9 +19,6 @@
   <content>AccumulationRegister.ОстаткиНоменклатуры</content>
   <content>Document.РасходДенег</content>
   <content>Catalog.Соглашения</content>
-  <content>AccumulationRegister.Взаиморасчеты</content>
-  <content>ChartOfCharacteristicTypes.СвойстваКонтрагентов</content>
-  <content>Catalog.ДополнительныеСвойстваКонтрагентов</content>
-  <content>InformationRegister.ХарактеристикиКонтрагентов</content>
-  <content>Report.Взаиморасчеты</content>
+  <content>AccumulationRegister.СостояниеВзаиморасчетов</content>
+  <content>Report.СостояниеВзаиморасчетов</content>
 </mdclass:Subsystem>
