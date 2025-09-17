@@ -64,6 +64,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="156dc1c0-c492-47f7-af6b-398795fb7c83">
@@ -71,10 +73,10 @@
       <objectType typeId="5782da70-dba8-4ce3-90a2-b26f67392a9c" valueTypeId="6256fd7b-f1f7-441b-a2da-186f68e16a99"/>
       <rowType typeId="8754c9d7-fc02-4604-adab-a816fecab446" valueTypeId="6461f78e-5bda-4959-aa2f-eb8e3b2f4714"/>
     </producedTypes>
-    <name>ОсновныеНачисления</name>
+    <name>Начисления</name>
     <synonym>
       <key>ru</key>
-      <value>Основные начисления</value>
+      <value>Начисления</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -174,6 +176,20 @@
           <precision>10</precision>
           <scale>2</scale>
         </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb18f143-a149-46b5-b3ad-c023554b7a5f">
+      <name>ГрафикРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>График работы</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГрафикРаботы</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

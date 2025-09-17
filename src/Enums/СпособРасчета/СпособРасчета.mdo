@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62933a67-cc4d-4200-8d84-2552d95bf2bd">
+  <producedTypes>
+    <refType typeId="32dc345e-1aed-4ad3-bccd-502c6ec95dcb" valueTypeId="5287745e-a5d9-48bc-9dc2-60697c82916b"/>
+    <listType typeId="0526cad0-75d2-495d-9840-e4ac0396642e" valueTypeId="d1f8f56b-10c3-4b41-bd89-9d66ad591152"/>
+    <managerType typeId="da2f06c0-56bf-4a65-8abe-d18feff85d69" valueTypeId="9878ea8f-c6af-4212-a04d-e0331c679f31"/>
+  </producedTypes>
+  <name>СпособРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9215d00a-c8b0-430f-ace3-33d2d4615581">
+    <name>ДневнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная ставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c88851e0-d164-4c64-82f3-8417b599fc97">
+    <name>ПремияЗаСтажРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия за стаж работы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
