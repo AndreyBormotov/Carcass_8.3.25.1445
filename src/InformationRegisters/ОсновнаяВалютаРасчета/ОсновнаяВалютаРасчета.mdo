@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e499569a-6e28-4d84-8816-4de761bd187d">
+  <producedTypes>
+    <selectionType typeId="121cbcb7-b71e-4bc2-8c79-22200b033132" valueTypeId="63048723-9651-44e4-aadf-1c32aaa4a43a"/>
+    <listType typeId="646bbc0c-40e8-48ae-ac41-5b51853acc3e" valueTypeId="86701643-7515-4626-a040-d6b0a248ccef"/>
+    <managerType typeId="f2b2f42a-8de2-44d4-9466-30edf0831d97" valueTypeId="db4788d9-b06d-4f1d-a2bb-583830592534"/>
+    <recordSetType typeId="60f39d32-bd49-45e0-807a-95ce7d9991b1" valueTypeId="bc434def-d698-4926-bbfe-7c70e0fa2757"/>
+    <recordKeyType typeId="16d75d9c-f252-47c4-a575-8def6a57292e" valueTypeId="de798427-eaba-4aba-b123-9dfaded4d5ce"/>
+    <recordType typeId="b584b168-d5fe-422f-a3a9-17cbbb486768" valueTypeId="e03d69fc-b838-42b8-be7d-2e97c34900a3"/>
+    <recordManagerType typeId="1ce7c4ba-3e23-4d4c-b2e4-fd87d2cbace2" valueTypeId="5a9e02d6-4b4a-4389-b5bf-3a0e7b914091"/>
+  </producedTypes>
+  <name>ОсновнаяВалютаРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная валюта расчета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="d572efb5-3d9f-47e4-8030-4cd2af5aed77">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

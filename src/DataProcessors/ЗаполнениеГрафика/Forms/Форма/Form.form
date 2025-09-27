@@ -41,6 +41,47 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>ГрафикРаботы</name>
+    <id>12</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ГрафикРаботы</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ГрафикРаботыРасширеннаяПодсказка</name>
+      <id>14</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ГрафикРаботыКонтекстноеМеню</name>
+      <id>13</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ВыходныеДни</name>
     <id>3</id>
     <visible>true</visible>
@@ -181,6 +222,23 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ВыходныеДни</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ГрафикРаботы</name>
+    <title>
+      <key>ru</key>
+      <value>График работы</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>Заполнить</name>

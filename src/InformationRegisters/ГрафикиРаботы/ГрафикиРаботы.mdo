@@ -50,10 +50,10 @@
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="0eb5e4c3-03a5-410f-ae46-457a58c63db5">
-    <name>Значение</name>
+    <name>Дней</name>
     <synonym>
       <key>ru</key>
-      <value>Значение</value>
+      <value>Дней</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -69,6 +69,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <dimensions uuid="393c00d6-eed6-48c5-8c3c-510b5882568a">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <dimensions uuid="d7c8be2d-a85c-4bfa-bd5d-11829090491f">
     <name>Дата</name>
     <synonym>
@@ -83,6 +101,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c250d35-b752-4666-9ba0-9313969a310b">
+  <producedTypes>
+    <objectType typeId="4dbed479-6ac2-4e0c-bc9e-942956b6aba0" valueTypeId="9abb351d-fc9b-4f96-8c55-4adebd40152b"/>
+    <managerType typeId="65240019-1739-4a08-a544-3482381d6ab7" valueTypeId="ede3b397-6430-43d6-8f65-34204169e381"/>
+  </producedTypes>
+  <name>ПлатежнаяВедомость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежная ведомость</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПлатежнаяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="12750b79-aaad-479a-91c6-2a5033744f6f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

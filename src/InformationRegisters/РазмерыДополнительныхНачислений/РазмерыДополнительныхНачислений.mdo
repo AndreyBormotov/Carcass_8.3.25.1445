@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd7abca2-207b-438d-817e-d8e7fbfe46cb">
+  <producedTypes>
+    <selectionType typeId="27629c01-af07-470f-b591-5e82aa701e38" valueTypeId="37317285-6454-4f5a-96ca-53b4a0a3aa9f"/>
+    <listType typeId="0d49288c-dc62-43d3-962c-f47feff4a580" valueTypeId="7f4e0721-1639-46d7-9ddd-0a4c4ce6e42c"/>
+    <managerType typeId="b47a6b47-c695-4b43-90f4-fc3eb846fac9" valueTypeId="cd5d8234-6677-447f-9467-2206121212f1"/>
+    <recordSetType typeId="4ac19553-159c-45e7-b978-3b174cc5d895" valueTypeId="aeba521a-77cd-4413-8179-3753b211034d"/>
+    <recordKeyType typeId="b84506c8-8c28-4d9f-a3b1-be5805acb548" valueTypeId="6adc55f5-bcf5-4396-86ce-5992ea46b46f"/>
+    <recordType typeId="acf2a1a5-8984-4865-af2d-aed934e70511" valueTypeId="52333b1e-ca64-4d9d-8d57-db18c3b89a7c"/>
+    <recordManagerType typeId="fe9aef2a-ec0f-4df3-a444-77534ed3b95a" valueTypeId="f38337d3-0948-4f01-9e22-165e0fd83b1c"/>
+  </producedTypes>
+  <name>РазмерыДополнительныхНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры дополнительных начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="ba73f9ab-0bf9-435a-a594-ddd85bd78b51">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6f95ba88-ec9d-4aff-98cb-410c09a9ca5c">
+    <name>Начисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

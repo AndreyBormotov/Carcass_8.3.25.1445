@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58bd453a-e65e-4f20-9752-3bd36d3f6fb5">
+  <producedTypes>
+    <objectType typeId="88b31506-465d-4c21-b9f3-8373b6f7258c" valueTypeId="3912b064-f0ba-4659-9bfa-8ce72d011431"/>
+    <refType typeId="119d4007-1ad0-4125-95ee-94df547db882" valueTypeId="0c626177-1047-4ede-b5bb-adb2d0a372a0"/>
+    <selectionType typeId="4991b847-b6d4-4c4b-b0d6-ad5fe6207347" valueTypeId="8ef1a436-dec4-462a-be58-1f728b8d2490"/>
+    <listType typeId="37cf4e24-09a3-4738-a521-0b3e508b5de9" valueTypeId="5096bae3-6d3d-4c8d-b736-f151e6cca417"/>
+    <managerType typeId="e583e02f-c9fd-443c-86f0-e41085875696" valueTypeId="bb78fc8c-7e49-4621-881f-672a53c94d4a"/>
+  </producedTypes>
+  <name>ЗарплатаКВыплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата к выплате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗарплатаКВыплате.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗарплатаКВыплате.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="90bbcc8c-e7df-43e3-b696-d2935547d595">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b43e67db-8e56-4ed4-aa26-82d76448a670">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="7db7c8f0-b2dc-4fcd-8556-e39d707e531c">
+    <producedTypes>
+      <objectType typeId="841d9ae9-f033-43f1-ab0f-a9df94beec32" valueTypeId="984ed9c4-d84e-45e1-a3d8-a0fca935058e"/>
+      <rowType typeId="4875c1ba-44e5-4180-975e-7b7068e6f761" valueTypeId="2bf952a4-a8c3-4f37-a065-4f563c0956f2"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="6eae4565-d149-4817-96c4-ec17242c39fe">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2fd30fc5-d75a-4d39-8ccf-10bfd538272d">
+      <name>ВалютаУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта учета</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c442ee8e-5689-4f97-b45e-3a56d24e70fd">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2c0330d2-f19e-4d3f-be3d-a480f07b141b">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
+        <types>ChartOfCalculationTypesRef.ОсновныеНачисления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -49,7 +49,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="60e0fa05-8fe1-4963-b2db-abd9c4e1c9c5">
@@ -68,6 +68,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -83,6 +84,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -90,7 +92,7 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="0106f36e-35a9-44fe-8d5a-021ec7336fd5">
+  <dimensions uuid="9e140e92-0226-4598-9377-f02c6c298e79">
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
@@ -101,11 +103,10 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
